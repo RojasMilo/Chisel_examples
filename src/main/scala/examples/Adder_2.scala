@@ -10,7 +10,6 @@ class Adder_2 extends Module{
     val sum = Output(UInt(32.W))
     })
 
-
     //Adder for 15:0
     val Adder0 = Module(new Adder(16))
     Adder0.io.A := io.a(15,0)
